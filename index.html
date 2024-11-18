@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoja Carta</title>
+    <style>
+        /* Reseteo básico */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Fondo fuera de la hoja */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Estilo para la hoja */
+        .hoja-carta {
+            width: 8.5in;
+            height: 11in;
+            background-color: white;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 1in;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        /* Título */
+        .hoja-carta h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+
+        /* Contenido */
+        .hoja-carta p {
+            font-size: 16px;
+            line-height: 1.6;
+            text-align: justify;
+        }
+
+        /* Pie de página */
+        .pie-pagina {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+            margin-top: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="hoja-carta">
+        <h1>Mi Hoja Carta</h1>
+        <p>
+            Este es un ejemplo de cómo se puede estructurar y diseñar una hoja que
+            tenga las dimensiones de una hoja carta estándar (8.5 x 11 pulgadas).
+            Puedes agregar más contenido aquí, como tablas, listas, imágenes o lo que desees.
+        </p>
+        <p>
+            La hoja tiene un diseño simple pero limpio, con márgenes generosos y un formato
+            que hace que sea fácil de leer y personalizar según tus necesidades.
+        </p>
+        <div class="pie-pagina">
+            &copy; 2024 - Tu Nombre o Empresa
+        </div>
+    </div>
+</body>
+</html>
